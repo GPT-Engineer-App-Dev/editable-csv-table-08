@@ -9,7 +9,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui';
+} from '@/components/ui/button'; // Corrected import path
 
 const Index = () => {
   const [data, setData] = useState([]);
